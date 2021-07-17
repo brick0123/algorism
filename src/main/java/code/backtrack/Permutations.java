@@ -1,27 +1,9 @@
 package code.backtrack;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.temporal.ChronoField;
-import java.time.temporal.WeekFields;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Permutations {
-
-  public static void main(String[] args) {
-    WeekFields of = WeekFields.of(DayOfWeek.MONDAY, 1);
-    System.out.println("of = " + of.getFirstDayOfWeek());
-
-    LocalDate now = LocalDate.now();
-    int dayOfWeek = now.get(ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH);
-    System.out.println("dayOfWeek = " + dayOfWeek);
-
-    "aa".length();
-    int i = 0;
-    test(i++);
-
-  }
 
   public static void test(int i) {
     System.out.println("i = " + i);
